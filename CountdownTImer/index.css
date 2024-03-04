@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anta&family=Bebas+Neue&family=Caveat:wght@400..700&family=Inconsolata:wght@200..900&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+
+body
+{
+    background-image: url(https://wallpaperset.com/w/full/3/a/7/145702.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: "Anta", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+form
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    
+}
+form button
+{
+    background-color:lightseagreen;
+    border-radius: 20px;
+    font-weight: 900;
+    color:rgb(48, 9, 17);
+    padding: 1px;
+    margin-top: 15px;
+    height: 30px;
+    width: 300px;
+}
+
+form label 
+{
+    margin: 10px;
+    color:gold;
+}
+form input
+{
+    border-radius: 40px;
+    background-color:floralwhite;
+    border-color: black;
+    height: 25px;
+}
+
+h1
+{
+    font-weight:normal;
+    font-size: 40px;
+    margin: -200px 0 10px;
+    color: burlywood;
+}
+
+.timer
+{
+    display: flex;
+}
+
+.time
+{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.time h2
+{
+    background-color: bisque;
+    padding: 6px;
+    border-radius: 10px;
+    line-height: 1;
+    margin: 0 0 60px;
+}
+.time h3
+{
+    background-color:coral;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+@media (max-width: 500px)
+{
+    h1
+    {
+        font-size: 45px;
+    }
+    .time
+    {
+        margin: 5px;
+    }
+    .time h2
+    {
+        font-size: 12px;
+    }
+    .time h3
+    {
+        font-size: 10px;
+    }
+}
